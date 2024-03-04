@@ -1,7 +1,10 @@
 body{
   background-image: url("../images/anime.png");
-  background-size: 2000px 2000px;
-
+  background-size: 1500px 1500px;
+  line-height: 1.25;
+  font-size: 18px;
+  color:#000000;
+  text-align: left;
 }	
 form {
   color: black;
