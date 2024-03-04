@@ -1,4 +1,8 @@
 body{
   background-image: url("..\images\anime.png");
-  background-size: 300px 300px;
-}
+  background-size: 300px, 300px;
+  line-height: 1.25;
+  font-size: 18px;
+  color:#000000;
+  text-align: left;
+}	
