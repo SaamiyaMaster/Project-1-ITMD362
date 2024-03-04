@@ -1,6 +1,6 @@
 body{
   background-image: url("../images/anime1.jpg");
-  background-size: 100% 100%;
+  background-size: 1000px 1000px;
   line-height: 1.25;
   font-size: 18px;
   color:#000000;
@@ -8,7 +8,7 @@ body{
 }	
 form {
   color: black;
-  background-color: #FFFFFF;
+  background-color: #ADD8E6;
   padding: 7px 10px;
   margin: 7px 2%;
   border: 2px;
@@ -29,6 +29,6 @@ p {
 input {
 	box-sizing: border-box;
 	width: 97%;
-	background-color: #fff8e7;
+	background-color: #FFFFFF;
 	display: block;
 }
