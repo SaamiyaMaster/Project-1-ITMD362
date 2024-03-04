@@ -1,1 +1,43 @@
-m
+<!DOCTYPE html>
+<html lang="en" class="nojs">
+<head>
+  <title>HTML Form Elements</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="Sign Up">
+  <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css">
+  <link rel="stylesheet" media="screen" href="css/screen.css">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap">
+</head>
+<body>
+<main id="content">
+  <form method="get" action="#null">
+    <h1>Don't be shy!</h1>
+    <p>
+      Sign up and learn 5 secrets to fight Diabetes!
+    </p>
+    <ol>
+      <li id="enter-username">
+        <label for="username">Username</label>
+        <input type="username" name="username" id="username" pattern="^.+@.+$">
+      </li>
+	  <li id="enter-password">
+        <label for="password">Password</label>
+        <input type="username" name="username" id="username" pattern="^.+@.+$">
+      </li>
+      <li id="input-age-verification">
+        <input type="checkbox" id="age-verification" name="age-verification" value="18">
+        <label for="age-verification">I Am over 18 years old</label>
+      </li>
+      <li id="input-submit">
+        <input type="submit" name="submit" id="submit" value="Subscribe">
+      </li>
+    </ol>
+  </form>
+</main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/site.js"></script>
+</body>
+</html>
