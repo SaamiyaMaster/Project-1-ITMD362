@@ -1,6 +1,6 @@
 body{
   background-image: url("../images/anime1.jpg");
-  background-size: 1500px 850px;
+  background-size: 1550px 850px;
   line-height: 1.25;
   font-size: 18px;
   color:#000000;
@@ -8,7 +8,7 @@ body{
 }	
 form {
   color: black;
-  background-color: #ADD8E6;
+  background-color: #D3F4FB;
   padding: 7px 10px;
   margin: 7px 2%;
   border: 2px;
