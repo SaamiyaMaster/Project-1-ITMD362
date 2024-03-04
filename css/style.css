@@ -12,7 +12,7 @@ form {
   position:center;
   color: black;
   width: 500px;
-  height: 300px;
+  height: 400px;
   background-color: #D3F4FB;
   box-shadow: 0px 1px 10px #9DE3F6;
   padding: 3px 5px;
@@ -38,7 +38,7 @@ p{
 }
 
 #content{
-  
+  text-align: center;
 }
 
 input[type="submit"]: hover {
