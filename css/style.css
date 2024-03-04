@@ -6,33 +6,41 @@ body{
   color:#000000;
   text-align: left;
 }	
+
 form {
   position:center;
   color: black;
   background-color: #D3F4FB;
+  box-shadow: 0px 1px 10px #9DE3F6;
   padding: 3px 5px;
   margin: 3px 2%;
   border: 2px;
   border-radius: 3px;
 }
+
 h1 {
   font-size: 32px;
   color: black;
   margin-bottom: 2%;
   text-align: left;
 }
+
 input[type="submit"]: hover {
   background-color: #D3F4FB;
 }
+
 input[type="consent"]{
   margin: 3px;
+  position: center;
 }
+
 input[type="username"]{
 box-sizing: border-box;
   width: 97%;
   background-color: #FFFFFF;
   display: block;
 }
+
 input[type="password"]{
 box-sizing: border-box;
   width: 97%;
