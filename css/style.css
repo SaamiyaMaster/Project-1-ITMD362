@@ -12,25 +12,25 @@ form {
   position:center;
   color: black;
   width: 500px;
-  height: 400px;
+  height: 350px;
   background-color: #D3F4FB;
   box-shadow: 0px 1px 10px #9DE3F6;
   padding: 3px 5px;
   margin-top: 150px;
-  margin-left: 150px;
+  margin-left: 250px;
   border: 2px;
   border-radius: 3px;
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 30px;
   color: black;
   margin-bottom: 2%;
-  text-align: left;
+  text-align: center;
 }
 
 p{
-  font-size: 24px;
+  font-size: 20px;
   color: black;
   margin-bottom:2%;
   text-align: left;
@@ -38,7 +38,7 @@ p{
 }
 
 #content{
-  text-align: center;
+  text-align: left;
 }
 
 input[type="submit"]: hover {
@@ -62,4 +62,48 @@ box-sizing: border-box;
   width: 97%;
   background-color: #FFFFFF;
   display: block;
+}
+
+@media only screen and (max-width: 350px){
+  input[type="username"]"{
+    height: 35%;
+	width: 100px;
+  }
+
+  input[type="password"]"{
+    height: 35%;
+	width: 100px;
+  } 
+
+  input[type="consent"]"{
+    height: 35%;
+	width: 100px;
+  }
+
+  input[type="submit"]"{
+    height: 35%;
+	width: 100px;
+  }
+}
+
+@media only screen and (max-width: 1050px){
+  input[type="username"]"{
+  height: 35%;
+  width: 100px;
+  }
+
+  input[type="password"]"{
+    height: 35%;
+	width: 100px;
+  } 
+
+  input[type="consent"]"{
+    height: 35%;
+	width: 100px;
+  }
+
+  input[type="submit"]"{
+    height: 35%;
+	width: 100px;
+  }
 }
