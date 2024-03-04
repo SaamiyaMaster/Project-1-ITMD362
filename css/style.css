@@ -7,6 +7,7 @@ body{
   text-align: left;
 }	
 form {
+  position:center;
   color: black;
   background-color: #D3F4FB;
   padding: 3px 5px;
@@ -15,14 +16,26 @@ form {
   border-radius: 3px;
 }
 h1 {
-	font-size: 32px;
-	color: black;
-	margin-bottom: 2%;
-	text-align: left;
+  font-size: 32px;
+  color: black;
+  margin-bottom: 2%;
+  text-align: left;
 }
-input {
-	box-sizing: border-box;
-	width: 97%;
-	background-color: #FFFFFF;
-	display: block;
+input[type="submit"]: hover {
+  background-color: #D3F4FB;
+}
+input[type="consent"]{
+  margin: 3px;
+}
+input[type="username"]{
+box-sizing: border-box;
+  width: 97%;
+  background-color: #FFFFFF;
+  display: block;
+}
+input[type="password"]{
+box-sizing: border-box;
+  width: 97%;
+  background-color: #FFFFFF;
+  display: block;
 }
