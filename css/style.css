@@ -1,5 +1,6 @@
 body{
   background-image: url("../images/anime.png");
+  background-repeat: no-repeat;
   line-height: 1.25;
   font-size: 18px;
   color:#000000;
@@ -12,4 +13,22 @@ form {
   margin: 7px 2%;
   border: 2px;
   border-radius: 3px;
+}
+h1 {
+	font-size: 32px;
+	color: black;
+	margin-bottom: 2%;
+	text-align: left;
+}
+p {
+	color: #000000;
+	font-size: 22px;
+	margin-bottom: 2%;
+	text-align: left;
+}
+input {
+	box-sizing: border-box;
+	width: 97%;
+	background-color: #fff8e7;
+	display: block;
 }
