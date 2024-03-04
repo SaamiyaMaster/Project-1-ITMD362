@@ -1,5 +1,6 @@
 body{
   background-image: url("../images/anime1.jpg");
+  background-size: 100% 100%;
   line-height: 1.25;
   font-size: 18px;
   color:#000000;
