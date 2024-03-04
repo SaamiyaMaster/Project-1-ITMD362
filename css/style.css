@@ -16,8 +16,8 @@ form {
   background-color: #D3F4FB;
   box-shadow: 0px 1px 10px #9DE3F6;
   padding: 3px 5px;
-  margin-top: 100px;
-  margin-right: 100px;
+  margin-top: 150px;
+  margin-left: 150px;
   border: 2px;
   border-radius: 3px;
 }
@@ -35,6 +35,10 @@ p{
   margin-bottom:2%;
   text-align: left;
   position: center;
+}
+
+#content{
+  
 }
 
 input[type="submit"]: hover {
