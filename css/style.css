@@ -47,7 +47,7 @@ input[type="consent"]{
   margin: 3px;
 }
 
-input[type="username"]{
+input[type="email"]{
   box-sizing: border-box;
   width: 97%;
   background-color: #FFFFFF;
@@ -62,7 +62,7 @@ box-sizing: border-box;
 }
 
 @media only screen and (max-width: 350px){
-  input[type="username"]{
+  input[type="email"]{
     height: 35%;
 	width: 100px;
   }
@@ -84,7 +84,7 @@ box-sizing: border-box;
 }
 
 @media only screen and (max-width: 1050px){
-  .input[type="username"]{
+  .input[type="email"]{
   height: 35%;
   width: 100px;
   }
