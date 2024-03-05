@@ -33,7 +33,6 @@ p{
   color: black;
   margin-bottom:2%;
   text-align: left;
-  position: center;
 }
 
 #content{
@@ -46,7 +45,6 @@ input[type="submit"] {
 
 input[type="consent"]{
   margin: 3px;
-  position: center;
 }
 
 input[type="username"]{
@@ -64,44 +62,44 @@ box-sizing: border-box;
 }
 
 @media only screen and (max-width: 350px){
-  input[type="username"]"{
+  input[type="username"]{
     height: 35%;
 	width: 100px;
   }
 
-  input[type="password"]"{
+  input[type="password"]{
     height: 35%;
 	width: 100px;
   } 
 
-  input[type="consent"]"{
+  input[type="consent"]{
     height: 35%;
 	width: 100px;
   }
 
-  input[type="submit"]"{
+  input[type="submit"]{
     height: 35%;
 	width: 100px;
   }
 }
 
 @media only screen and (max-width: 1050px){
-  .input[type="username"]"{
+  .input[type="username"]{
   height: 35%;
   width: 100px;
   }
 
-  .input[type="password"]"{
+  .input[type="password"]{
     height: 35%;
 	width: 100px;
   } 
 
-  .input[type="consent"]"{
+  .input[type="consent"]{
     height: 35%;
 	width: 100px;
   }
 
-  .input[type="submit"]"{
+  .input[type="submit"]{
     height: 35%;
 	width: 100px;
   }
