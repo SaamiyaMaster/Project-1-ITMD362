@@ -40,7 +40,7 @@ p{
 }
 
 input[type="submit"] {
-  background-color: #fff8e7;
+  background-color: #FFFFFF;
 }
 
 input[type="consent"]{
@@ -103,4 +103,5 @@ box-sizing: border-box;
     height: 35%;
 	width: 100px;
   }
+}
 }
