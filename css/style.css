@@ -3,7 +3,7 @@ body{
   background-size: cover;
   font-family: "Tienne", 'Roboto', serif;
   font-style: normal;
-  line-height: 1.25;
+  line-height: 1.2em;
   font-size: 18px;
   color:#000000;
   text-align: left;
@@ -69,9 +69,7 @@ input[type="password"]{
   }
   
   form {
-	max-width: 100%;
-	margin-right: auto;
-	margin-left: auto;
+	max-width: 70%;
   }
 
   .content {
