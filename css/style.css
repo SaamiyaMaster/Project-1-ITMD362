@@ -1,7 +1,7 @@
 body{
   background-image: url("../images/anime1.jpg");
   background-size: 1550px 850px;
-  font-family: "Tienne", serif;
+  font-family: "Tienne", 'Roboto', serif;
   font-style: normal;
   line-height: 1.25;
   font-size: 18px;
