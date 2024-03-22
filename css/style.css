@@ -36,7 +36,7 @@ p{
   text-align: left;
 }
 
-#content{
+.content{
   text-align: left;
 }
 
@@ -56,31 +56,43 @@ input[type="email"]{
 }
 
 input[type="password"]{
-box-sizing: border-box;
+  box-sizing: border-box;
   width: 97%;
   background-color: #FFFFFF;
   display: block;
 }
 
-@media screen and (min-width: 320px) {
+@media (min-width: 320px) {
+	
   body {
 	background-color: #D3F4FB; 
 	font-size: 14px;
 	display: flex;
   }
+  
   form {
-	width: 65%;
+	width: 75%;
+  
   }
   h1{
 	font-size: 18px;
 	text-align: center;
   }
+  
+  .container {
+	  margin: 25px;
+	  padding: 15px;
+  }
 }
 
-@media screen and (min-width: 1024px){
+@media (min-width: 1024px){
+  
   body {
 	font-size: 20px;
 	display: flex;
-	text-align: center;
+  }
+  
+  .container {
+    width: 90%;
   }
 }
