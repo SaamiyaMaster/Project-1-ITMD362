@@ -62,7 +62,7 @@ input[type="password"]{
   display: block;
 }
 
-@media (min-width: 500px) {
+@media screen and (min-width: 500px) {
   body {
 	background-color: #D3F4FB; 
 	display: flex;
@@ -72,14 +72,14 @@ input[type="password"]{
 	margin-right: auto;
 	margin-left: auto;
   }
- 
+
   .container {
 	margin: 25px;
 	padding: 15px;
   }
 }
 
-@media (min-width: 1024px){
+@media screen and (min-width: 1024px){
   body {
 	display: flex;
   }
