@@ -62,9 +62,9 @@ input[type="password"]{
   display: block;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 320px) and (max-width: 699px) {
   body {
-	background-color: #D3F4FB; 
+	background-color: #ADD8E6; 
 	display: flex;
   }
   
