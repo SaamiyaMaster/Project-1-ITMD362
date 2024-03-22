@@ -69,6 +69,7 @@ input[type="password"]{
   }
   
   form {
+	max-width: 100%;
 	margin-right: auto;
 	margin-left: auto;
   }
