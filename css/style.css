@@ -65,7 +65,6 @@ input[type="password"]{
 @media (min-width: 320px) {
   body {
 	background-color: #D3F4FB; 
-	font-size: 14px;
 	display: flex;
   }
   
@@ -86,7 +85,6 @@ input[type="password"]{
 
 @media (min-width: 1024px){
   body {
-	font-size: 20px;
 	display: flex;
   }
   
