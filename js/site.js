@@ -16,3 +16,4 @@ jQuery(function($) {
 	  alert("Please check your Email inbox for verification!");
 	  return true;
 	}
+  }
