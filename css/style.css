@@ -42,7 +42,7 @@ p{
 }
 
 input[type="submit"] {
-  background-color: #FFFFFF;
+  background-color: #9DE3F6;
   max-width: 300px;
   text-align:center;
 }
@@ -72,6 +72,9 @@ input[type="password"]{
   
   form {
 	max-width: 70%;
+  }
+  input[type="submit"]{
+	width: 70px;  
   }
 }
 
